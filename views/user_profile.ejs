@@ -1,0 +1,62 @@
+<!-- <html>
+    <head>
+        <title>
+            <%= title %>
+        </title>
+    </head>
+    <body>
+         -->
+         <link rel="stylesheet" href="/css/user_profile.css">
+        <!-- <h1>
+            Codeial / Profile user
+        </h1> -->
+
+        <!-- hmne yha vo img dekhani h vo user ne upload kri hui h -->
+        <img src="<%- user.avatar %>" alt="<%= user.name %>" width="100">
+
+        <!-- hmne plhe yha bs user.name krke likha tha taki hmari user profile pr name and email show kr jye abhi bhi same hi kiya h bs hmne uska name change krke profile_user.name kr diya taki hm use ani home pr dekha sake kon kon se user login the, vahi se access kr sake taki hm -->
+        <!-- <p><%= profile_user.name %></p>
+        <p><%= profile_user.email %></p> -->
+
+
+<!----------$$--------- in this we will update the form  -----------$$----------->
+        <!-- isme hm check krege agr hmari user ki id profile id means jo open ki hui h hmne usse match ho jati h to if m jyega vrna else m jyega -->
+        <% if(user.id == profile_user.id) { %>
+
+            
+            <!-- if user matches then show thw form -->
+            <!-- we write here enctype bcoz here we want to upload files so thats why we use this and hm isme sirf files hi ni text bhi krva skte h send isliye isme multipart likha h na ek sath bhaut kma krta h ye -->
+            <form action="/users/update/<%= profile_user.id%>" enctype="multipart/form-data" method="POST">
+                <!-- ithr hm user ki sari info dalege jise hm chate h ki zarurt pdne pr user change or update kr sake and value m mne ye isliye dala bcoz pta to hona chaiye kya update kre isliye jo uski profile if h iska refrence dal diya -->
+                <input type="text" name="name" placeholder="Your Name" value="<%= profile_user.name%>" required>
+                <input type="email" name="email" placeholder="Your Email" value="<%= profile_user.email%>" required>
+                
+                <!-- this is for AVATAR(picture) -->
+                <input type="file" name="avatar" placeholder="Profile Picture">
+                
+                <input type="submit" value="Update">
+            </form>
+
+        <% }else{ %>
+            <!-- else how only the profile info -->
+            <p><%= profile_user.name %></p>
+            <p><%= profile_user.email %></p>
+            <a class="toggle-friend-btn" href="/friends/add-friend/?id=<%= profile_user.id %>">
+                <% if(locals.removeFriend){ %>
+                        Remove Friend
+                <% }else{ %>
+                        Add Friend
+                <% } %>
+            </a>
+        <% } %>
+
+<script type="text/javascript" src="/js/user_image_preview.js"></script>
+<script type="text/javascript" src="/js/toggle_friend.js"></script> 
+
+
+        <!-- aise hm show krege user ki details browser pr --> 
+        <!-- <p>Name:  user.name </p>
+        <p>Email:  user.email </p> -->
+
+    </body>
+</html>

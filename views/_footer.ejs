@@ -1,0 +1,26 @@
+<!-- <footer>
+    Page Footer
+</footer> -->
+
+<footer id="layout-footer">
+    <div>
+        <p>
+            &copy; Vanshika. All Rights Reserved
+        </p>
+    </div>
+
+    <div>
+        <nav class="footer-nav">
+            <ul>
+                <% if (locals.user) { %>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/users/profile/<%= user.id %>">Profile</a>
+                    </li>
+                <% } %>
+            </ul>
+        </nav>
+    </div>
+</footer>

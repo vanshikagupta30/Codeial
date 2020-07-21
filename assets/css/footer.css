@@ -1,0 +1,9 @@
+#layout-footer {
+  color: white;
+  background: black;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-evenly; }
+  #layout-footer a {
+    color: white;
+    text-decoration: none; }

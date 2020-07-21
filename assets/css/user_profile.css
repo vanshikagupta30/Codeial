@@ -1,0 +1,7 @@
+body {
+  /* --body-color: lightblue;
+    background-color: var(--body-color); */
+  background-color: lightblue; }
+  body #layout-footer {
+    position: relative;
+    top: 55%; }
