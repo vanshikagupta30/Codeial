@@ -86,7 +86,7 @@ app.set('layout extractStyles',true);
 app.set('layout extractScripts',true);
 
 // ithr hmne apni css files use krni h to ye lga diya(now we want to use our file in producrtion mode means that our file used in thousands of pc's. That's why we use env extention)
-app.use(express.static(env.asset_path));
+app.use(express.static(path.join(__dirname , env.asset_path)));
 
 // make the uploads path availabe to the browser (if we don't do this then the picture we will upload that will not see in the page(we did in this is plhe hmne path diya ki uploads vale module m h then find the folder using express.static then will will take the current directory in which we are + uploads ki directory krdege))
 app.use('/uploads', express.static(__dirname + '/uploads'));
