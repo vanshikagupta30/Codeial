@@ -8,7 +8,10 @@ class ChatEngine{
 
         //Requestion for connection with chat server
         // io is the global variable as soon as we included this file in home.ejs(in cdnjs) and io has been given to us by socket.io file 
-        this.socket = io.connect("http://localhost:5000");
+        // this.socket = io.connect("http://localhost:5000");
+
+        // here we write the ip address in which we want to run this socket.io and we replace the localhost with that ip address
+        this.socket = io.connect("http://3.91.245.211/:5000");
         
         // we write this bcoz when user is login then this fn is called and in this fn we had a connection b/w server and the users
         if(this.userEmail){ 

@@ -70,7 +70,7 @@ if(env.name == 'development'){
 }
 
 //urlencoded()jo hm form k andr post get send krte h actions m uske content(form) ko pass krne k liye
-app.use(express.urlencoded());
+app.use(express.urlencoded({extended : false}));
 
 app.use(cookieParser());
 
