@@ -1,5 +1,5 @@
 
-         <link rel="stylesheet" href="/css/user_profile.css">
+         <link rel="stylesheet" href="<%=assetPath('css/user_profile.css')%>">
         <img src="<%- user.avatar %>" alt="<%= user.name %>" width="100">
 
 <!----------$$--------- in this we will update the form  -----------$$----------->
@@ -27,5 +27,5 @@
             </a>
         <% } %>
 
-<script type="text/javascript" src="/js/user_image_preview.js"></script>
-<script type="text/javascript" src="/js/toggle_friend.js"></script> 
+<script type="text/javascript" src="<%=assetPath('js/user_image_preview.js')%>"></script>
+<script type="text/javascript" src="<%=assetPath('js/toggle_friend.js')%>"></script> 
