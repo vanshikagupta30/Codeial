@@ -1,30 +1,16 @@
-// chat engine is us 
 
 class ChatEngine{
-    // constructor take 2 things one is the id of the chatbox and second email id of the user
     constructor(chatBoxId , userEmail){
         this.chatBoxId = $(`#${chatBoxId}`);
         this.userEmail = userEmail;
-
-        //Requestion for connection with chat server
-        // io is the global variable as soon as we included this file in home.ejs(in cdnjs) and io has been given to us by socket.io file 
-        // this.socket = io.connect("http://localhost:5000");
-
-        // here we write the ip address in which we want to run this socket.io and we replace the localhost with that ip address
-        this.socket = io.connect("http://3.91.245.211/:5000");
-        
-        // we write this bcoz when user is login then this fn is called and in this fn we had a connection b/w server and the users
+        this.socket = io.connect("http://3.91.245.211/:6000");
         if(this.userEmail){ 
             this.connectionHandler();
         }
         
     }
-// // we create an connection handler and it give us to and fro interaction b/w the server/observer and the user/subscriber
     connectionHandler(){
-        let self = this;
-
-         // //Requesting for connecting socket to the chat server
-        // on means detecting an event and event on socket takes place is connection, when connect event occurs then call the callback fn that socket has been connected  
+        let self = this; 
          this.socket.on("connect" , function(){
             console.log("connection is established using sockets...!");
 

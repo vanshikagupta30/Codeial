@@ -4,52 +4,33 @@
             <%= title %>
         </title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css">
-        <!-- we use this this bcoz ye noty ka link h isse hm yha pr flash msgs use kr skte h dekhane k liye -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js"></script>
         
-        <!-- we converd or code to ajax that's wy we need this script tag -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-        <!-- <link rel="stylesheet" href="/css/layout.css"> -->
         <link rel="stylesheet" href="<%= assetPath('css/layout.css') %>">
-        <!-- hmne ye niche isliye rkha link tag k kyuki ye uski properties ko overwrite krde -->
 
-        <!-- <link rel="stylesheet" href="/css/header.css"> -->
-        <!-- <link rel="stylesheet" href="/css/footer.css"> -->
         <link rel="stylesheet" href="<%= assetPath('css/header.css') %>">
         <link rel="stylesheet" href="<%= assetPath('css/footer.css') %>">
         <link rel="stylesheet"  href="<%=assetPath('css/home.css')%>">
         <%- style %>
     </head>
     <body>
-        <!-- to include header from other file we need this syntax and _header is the file name -->
         <%- include('_header.ejs'); %>
 
-        <!-- ithr hmne flash msgs show krvae h(bs hme upr dekhege posts k in black color) agr flash.success and flash.success has a message(it should not be empty string or object isiliye hmne usme length greater than 0 di) -->
-        <!-- <% if(flash.success && flash.success.length > 0) { %>
-            <h3> -->
-                <!-- isme hmne equal sign isliye lgaya jb hme koi chiz displey krvani hoti h tbhi equal ka sign lgate h -->
-                <!-- <%= flash.success %>
-            </h3>
-        <% } %> -->
-        
-        <!-- this is the variable part and this is told where the variable part would be there -->
         <main id="layout-main">
             <%- body %>
         </main>
         
-        <!-- to include footer from other file we need this syntax and _footer is the file name -->
         <%- include('_footer'); %>
 
         <%- script %>
 
-        <!-- here we do sricpt tag for flash msgs to see acha or sundar and we use here is noty js acha dekhane k liye vrna hmne jb text print krna h to upr kra tha(and ye hmne isliye yha likha post controller k bad bcoz post controller m likhne se bs vo show to ni hoga n bcoz vo db m h aur jb tk hm use views folder se ni likhege/link krege tb tk ni dekhega ) -->
         <script>
             <% if(flash.success && flash.success.length > 0) { %>
                 new Noty({
                     theme:'relax',
                     text: '<%= flash.success %>',
-                    // we can change the color of this success to whatever we want just go though to the noty js
                     type: 'success',
                     layout: 'topRight',
                     timeout: 1500

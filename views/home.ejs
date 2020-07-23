@@ -1,16 +1,4 @@
-<!-- <html>
-    <head>
-        <title>
-            <%= title %>
-        </title>
-    </head>
-    <body> -->
-        <!-- this is to include header from other file we need this syntax and _header is the file name -->
-        <!-- <h1>
-        Codeial / <%= title %>
-        </h1> -->
 
-        <!-- <link rel="stylesheet" href="/css/home.css"> -->
         <link rel="stylesheet" href="<%= assetPath('css/home.css') %>">
         <link rel="stylesheet" href="<%= assetPath('css/chat_box.css') %>">
 
@@ -18,8 +6,6 @@
             <section id="feed-posts">
                 <!---------- in this we will create a posts section ----------->
                 <h4>Posts</h4>
-            <!-- if we give only user then it will throuht an error if we signout bcoz user is not being able to fetch from locals and locals is an object -->
-            <!-- hmne ye locals.user isliye lgaya h bcoz jb tk koi user log-in ni hoga tb tk vo koi post ni kr skta tb tk use post krne k liye textrea ni dekhega-->
                 <% if (locals.user) { %>
                     <form action="/posts/create" id="new-post-form" method="POST">
                         <textarea name="content" cols="30" rows="3" placeholder="type here..." required></textarea>
@@ -31,7 +17,6 @@
                 <div id="posts-list-container">
                     <ul>
                         <% for(post of posts) { %>
-                        <!-- ithr hmne posts ka section bnya tha jise ab alg file m likh diya and uska refrence yha pr de diya -->
                             <%- include('_post.ejs') -%>
     
                         <% } %>
@@ -41,7 +26,6 @@
             <aside>
                 <div id="user-friends">
                     <h2>Users</h2>
-                    <!-- is for loop m jo you h hm uski jagah kuch bhi likh skte h it's a variable -->
                     <% for(You of all_users) { %>
                         <p>
                             <a href="/users/profile/<%= You.id %>">
@@ -55,21 +39,14 @@
         </div>
 
 
-<!-- importing this script for creating the comments -->
-<!-- <script src="/js/home_post_comments.js"></script>
-<script src="/js/home_posts.js"></script> -->
-
 <script src="<%=assetPath('js/home_posts.js')%>"></script>
 <script src="<%=assetPath('/js/home_post_comments.js')%>"></script>
 <script src="<%=assetPath('js/home.js')%>"></script>
         
-<!-- import the script file for toggle likes, also run it over for already present posts and comments on the page -->
 <script src="<%=assetPath('js/toggle_likes.js') %>"></script>
-<!-- <script src="<%=assetPath('js/home_posts.js')%>"></script>
-<script src="<%=assetPath('js/home.js')%>"></script> -->
+
 
 <script>
-    // each toggle-like-button that is present already on the page I added that class
     $('.toggle-like-button').each(function(){
         let self = this;
         let toggleLike = new ToggleLike(self);
@@ -77,18 +54,10 @@
 </script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
-<!-- <script src="/js/chat_engine.js"></script> -->
 <script src="<%=assetPath('js/chat_engine.js')%>"></script>
         
 <% if(locals.user) {%>
     <script>
-        // new ChatEngine("user-chat-box" , "<%= locals.user._id %>");
         new ChatEngine("user-chat-box" , "<%= locals.user.email %>");
     </script>
 <% } %>
-
-
-        <!-- this is to include footer from other file we need this syntax and _footer is the file name
-        
-    </body>
-</html> --> 

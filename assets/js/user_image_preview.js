@@ -1,4 +1,3 @@
-// ye vali file m hm jb koi bhi file upload krege to hme dekha dega ki upr preview m
 let preview = function(){
     $("#change-avtar").change(function(){
         const reader = new FileReader();

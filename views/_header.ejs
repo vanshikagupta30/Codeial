@@ -1,7 +1,3 @@
-<!-- hmne header yha isliye likha kyuki hme sare ejh pages ka header and footer same chaiye bs beach ka content alg hoga -->
-<!-- <header>
-    Page Header -->
-
 <header id="layout-header">
     <nav>
         <div class="mini-logo">
@@ -14,9 +10,7 @@
         
         <div class="auth-links">
             <ul>
-                <!-- local.user vo h jaise hm sign-in kr jyege tb hm vha k local users hoge  -->
                 <% if (locals.user) { %>
-                    <!-- agr user signed in h to use name and sign out ka link dekhega -->
                     <li>
                         <a href="/users/profile/<%= user.id %>">
                         <%= user.name %></a>
@@ -25,7 +19,6 @@
                         <a href="/users/sign-out">Sign Out</a>
                     </li>
                 <% }else{ %>
-                    <!-- agr signed in nahi h to sign in aur sign up ka link dekega jisse vo logn in kre -->
                     <li>
                         <a href="/users/sign-in">Sign In</a>
                     </li>
@@ -37,5 +30,3 @@
         </div>
     </nav>
 </header>
-
-<!-- </header> -->

@@ -7,7 +7,6 @@ exports.resetPassword = (user,accessToken) => {
 
     nodeMailer.transporter.sendMail({
         from: 'frontendtest323@gmail.com',
-        // user.email hm hmari vo vali h jo user ki h us time
         to: user.email,
         subject: 'Password Change link',
         html: htmlString

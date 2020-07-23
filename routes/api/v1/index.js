@@ -1,4 +1,3 @@
-// this index.js is similar to index and post js file of routes
 
 const express = require('express');
 

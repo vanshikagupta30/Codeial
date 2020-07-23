@@ -1,6 +1,5 @@
 <li id='comment-<%=comment.id %>'>
-    <!-- <p> -->
-        <!-- if the user is signed in or if the user which is signed in is equal who created the comment(isme hme pta chlega ki ek user jisne login kiya hua h vo dusre user ka post delete ni kr skta ) -->
+    
         <% if(locals.user && locals.user.id == comment.user.id) { %>
             <small>
                 <a class="delete-comment-button" href="/comments/destroy/<%= comment.id %>">
@@ -12,14 +11,12 @@
         <%= comment.content %>
         <br><br>
         <small>
-            <!-- isse hme user ka name aur email mil jyega jisne vo comment dala hua h -->
             User:<%= comment.user.name %>
             <br>
             Email Id:<%= comment.user.email %>
             <br>
         </small>
 
-        <!--  display the likes of this content, if the user is logged in then show the like to toggle likes, else jst show the count -->
         <small>
             <% if(locals.user) { %>
                 <a class="toggle-like-button" data-likes="<%= comment.likes.length %>" href="/likes/toggle/?id=<%=comment._id%>&type=Comment">
@@ -29,7 +26,4 @@
                 <%= comment.likes.length %> Likes
             <% } %>
         </small>
-        
-    <!-- </p> -->
 </li>
-<!-- // open new tab  -->

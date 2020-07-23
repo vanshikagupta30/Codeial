@@ -1,7 +1,5 @@
-<!-- we add an id to this list item bcoz at some time I would need to delete this post. SO, for deleting this list item I need a id to recognize which one in the page -->
 <li id="post-<%= post._id %>">
     <p>
-        <!-- if the user is signed in or if the user which is signed in is equal who created the post(isme hme pta chlega ki ek user jisne login kiya hua h vo dusre user ka post delete ni kr skta ) -->
         <% if(locals.user && locals.user.id == post.user.id) { %>
             <small>
                 <a class="delete-post-button" href="/posts/destroy/<%= post.id %>">
@@ -9,30 +7,20 @@
                 </a> &nbsp;
             </small>
         <% } %>
-        <!-- isse post ka content print hoga jo hm textarea m likhege -->
         <%= post.content %>
         <br>
-        <!-- small tag chota dekhyega thoda sa content jo hm show krva rahe h vo -->
         <small>
-        <!-- post.user likhege hm to usse puri identity aa jyegi mtlb uski id,name,email,pass,createdAt and updatedAt but hme ye ni chaiye be user ka name dekhana h to hm post.user.name likhege usse bs uska name display hoga-->
             <p><%= post.user.name %></p>
-            <!-- <br> -->
             Email Id:<%= post.user.email %>
         </small>
-
-
-        <!-- dispay the likes of the post, if te user is logged in, then show the link to toggle likes else, just show the count -->
         <br>
-            <!-- study about the data structure -->
         <small>
             <% if(locals.user) { %>
-            <!-- here we use query params in a tag bcoz we pass query to multiple things and here we pass type(post pr h ya comment pr like but yha pr post pr like hoga) and id of that post-->
                 <a class="toggle-like-button" data-likes="<%= post.likes.length %>" href="/likes/toggle/?id=<%=post._id%>&type=Post">
                     <%= post.likes.length %> Likes
                 </a>
 
             <% }else{ %>
-            <!-- if a user is signed out then it will just show a number -->
                 <%= post.likes.length %> Likes
 
             <% } %>
@@ -42,12 +30,10 @@
 
 <!---------- in this we create a comment section ----------->
     <div class="post-comment">
-    <!-- ye locals.user isliye lgaya kyuki jb user login hoga tbhi vo comment kr skta h vrna ni kr skta -->
         <% if(locals.user) { %>
 
             <form action="/comments/create" class="new-comment-form" method="POST" id="comment-form-<%= post._id %>">
                 <input type="text" name="content"  placeholder="Type Here To Add Comment..." required>
-                <!-- id of the posts in which comment should be added that is which we need to send -->
                 <input type="hidden" name="post" value="<%= post._id %>">
                 <input type="submit" value="Add Comment">
             </form>
@@ -57,9 +43,7 @@
 <!--------$$------- in this we will show the comments nesting vale ---------$$--------->
         <div id="post-comments-list">
             <ul id="post-comments-<%= post._id %>">
-                <!-- here we write post.comments bcoz the comments are inside the post so we are going to iterate over all the comments of the post and display whatever details we want to and we populated them already -->
                 <% for (comment of post.comments) {%> 
-                    <!-- yha hmne comments ka action bnya tha jise ab hmne alg file m likhkr yha uska refrence de diya -->
                     <%- include('_comment') -%>
 
                 <% } %>
