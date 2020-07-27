@@ -64,7 +64,7 @@ const production = {
 }
 
 
-
+console.log(process.env.CODEIAL_DEVELOPMENT)
 module.exports = eval(process.env.CODEIAL_DEVELOPMENT) == undefined ? development : eval(process.env.CODEIAL_DEVELOPMENT) ;
 
 ////this is for the development mode

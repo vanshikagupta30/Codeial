@@ -1,0 +1,136 @@
+[0mGET / [32m200[0m 104.213 ms - 15316[0m
+[0mGET / [36m304[0m 100.446 ms - -[0m
+::1 - - [13/Jul/2020:15:55:58 +0000] "GET / HTTP/1.1" 200 5681 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
+::1 - - [13/Jul/2020:15:56:00 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
+[0mGET / [32m200[0m 103.624 ms - 12139[0m
+[0mGET / [36m304[0m 91.826 ms - -[0m
+[0mGET / [36m304[0m 36.819 ms - -[0m
+[0mGET / [36m304[0m 101.962 ms - -[0m
+[0mGET / [36m304[0m 101.153 ms - -[0m
+[0mGET / [31m500[0m 75.240 ms - 148[0m
+[0mGET / [31m500[0m 31.181 ms - 148[0m
+[0mGET / [31m500[0m 21.712 ms - 148[0m
+[0mGET / [32m200[0m 71.059 ms - 12203[0m
+[0mGET / [36m304[0m 64.474 ms - -[0m
+[0mGET / [36m304[0m 78.761 ms - -[0m
+[0mGET / [36m304[0m 77.135 ms - -[0m
+[0mGET / [31m500[0m 85.260 ms - 148[0m
+[0mGET / [31m500[0m 33.674 ms - 148[0m
+[0mGET / [32m200[0m 41.951 ms - 12201[0m
+[0mGET / [36m304[0m 22.538 ms - -[0m
+[0mGET / [32m200[0m 144.553 ms - 12395[0m
+[0mGET / [36m304[0m 38.492 ms - -[0m
+[0mGET / [36m304[0m 53.513 ms - -[0m
+[0mGET / [32m200[0m 113.584 ms - 12734[0m
+[0mGET /js/home.js [33m404[0m 249.742 ms - 149[0m
+[0mGET /js/home.js [33m404[0m 3.863 ms - 149[0m
+[0mGET /js/home.js [33m404[0m 6.701 ms - 149[0m
+[0mGET /home.html [33m404[0m 10.752 ms - 148[0m
+[0mGET / [32m200[0m 208.404 ms - 12734[0m
+[0mGET /js/home.js [33m404[0m 22.404 ms - 149[0m
+[0mGET /js/home.js [33m404[0m 3.247 ms - 149[0m
+[0mGET /js/home.js [33m404[0m 3.100 ms - 149[0m
+[0mGET /favicon.ico [33m404[0m 1.729 ms - 150[0m
+[0mGET /users/sign-in [32m200[0m 8.313 ms - 4192[0m
+[0mGET /users/css/header.css [33m404[0m 20.691 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 25.063 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 20.647 ms - 159[0m
+[0mGET /users/css/home.css [33m404[0m 42.556 ms - 157[0m
+[0mGET /users/css/layout.css [33m404[0m 12.289 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 12.911 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 12.510 ms - 159[0m
+[0mGET /users/css/home.css [33m404[0m 13.651 ms - 157[0m
+[0mGET /users/sign-in [32m200[0m 51.420 ms - 4196[0m
+[0mGET /users/sign-in [36m304[0m 11.973 ms - -[0m
+::1 - - [23/Jul/2020:17:43:13 +0000] "GET / HTTP/1.1" 200 3011 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:43:14 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:43:14 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:43:14 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:43:15 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:43:19 +0000] "GET /users/sign-in HTTP/1.1" 200 2254 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:44:26 +0000] "POST /users/create-session HTTP/1.1" 302 72 "http://localhost:7000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:44:26 +0000] "GET /users/sign-in HTTP/1.1" 200 2529 "http://localhost:7000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:44:33 +0000] "GET /users/sign-in HTTP/1.1" 200 2254 "http://localhost:7000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:44:36 +0000] "GET /users/sign-up HTTP/1.1" 200 2264 "http://localhost:7000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:44:49 +0000] "POST /users/create HTTP/1.1" 302 72 "http://localhost:7000/users/sign-up" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:44:49 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:7000/users/sign-up" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:44:52 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:7000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:44:52 +0000] "GET / HTTP/1.1" 200 4734 "http://localhost:7000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:44:52 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:44:53 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:44:53 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:44:54 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:45:15 +0000] "GET /users/profile/5f19cc917d0e091ce406336c HTTP/1.1" 200 3008 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:45:15 +0000] "GET /css/user_profile.css HTTP/1.1" 404 159 "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:45:15 +0000] "GET /js/user_image_preview.js HTTP/1.1" 404 163 "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:45:15 +0000] "GET /js/toggle_friend.js HTTP/1.1" 404 158 "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:45:16 +0000] "GET /css/user_profile.css HTTP/1.1" 404 159 "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:45:16 +0000] "GET /js/user_image_preview.js HTTP/1.1" 404 163 "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:45:16 +0000] "GET /js/toggle_friend.js HTTP/1.1" 404 158 "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:47:40 +0000] "GET /users/profile/5f19cc917d0e091ce406336c HTTP/1.1" 200 3019 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:47:40 +0000] "GET /js/toggle_friend.js HTTP/1.1" 404 158 "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:47:40 +0000] "GET /js/user_image_preview.js HTTP/1.1" 404 163 "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:47:41 +0000] "GET /js/user_image_preview.js HTTP/1.1" 404 163 "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:47:41 +0000] "GET /js/toggle_friend.js HTTP/1.1" 404 158 "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:47:55 +0000] "GET / HTTP/1.1" 200 4461 "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:47:55 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:47:56 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:47:56 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:49:48 +0000] "GET / HTTP/1.1" 304 - "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:49:48 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:49:49 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:49:49 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:49:56 +0000] "GET / HTTP/1.1" 304 - "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:49:56 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:49:57 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:49:57 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:50:35 +0000] "GET / HTTP/1.1" 200 4487 "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:50:35 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:50:36 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:52:28 +0000] "GET / HTTP/1.1" 304 - "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:52:28 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:52:29 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:52:50 +0000] "GET / HTTP/1.1" 304 - "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:52:50 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:52:51 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:53:17 +0000] "GET /users/profile/5f19cc917d0e091ce406336c HTTP/1.1" 200 3020 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:53:17 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:53:18 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:53:45 +0000] "GET / HTTP/1.1" 304 - "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:53:45 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:53:45 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:54:03 +0000] "GET /users/profile/5f19cc917d0e091ce406336c HTTP/1.1" 304 - "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:54:03 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:54:04 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:54:09 +0000] "GET /users/profile/5f19cc917d0e091ce406336c HTTP/1.1" 304 - "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:54:09 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:54:10 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:55:01 +0000] "GET /users/profile/5f19cc917d0e091ce406336c HTTP/1.1" 304 - "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:55:01 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:55:01 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:55:14 +0000] "GET /users/profile/5f19cc917d0e091ce406336c HTTP/1.1" 200 3041 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:55:21 +0000] "GET /users/profile/5f19cc917d0e091ce406336c HTTP/1.1" 304 - "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:56:03 +0000] "GET /users/profile/5f19cc917d0e091ce406336c HTTP/1.1" 304 - "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:56:14 +0000] "GET / HTTP/1.1" 304 - "http://localhost:7000/users/profile/5f19cc917d0e091ce406336c" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:56:15 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:56:15 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:56:22 +0000] "GET /users/sign-out HTTP/1.1" 302 46 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:56:22 +0000] "GET / HTTP/1.1" 200 3550 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:56:22 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [23/Jul/2020:17:56:22 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+[0mGET / [32m200[0m 95.847 ms - 5709[0m
+[0mGET /js/home.js [33m404[0m 17.712 ms - 149[0m
+[0mGET /js/home.js [33m404[0m 3.074 ms - 149[0m
+[0mGET /favicon.ico [33m404[0m 2.333 ms - 150[0m
+[0mGET /users/sign-in [32m200[0m 11.456 ms - 2210[0m
+[0mPOST /users/create-session [36m302[0m 18.829 ms - 72[0m
+[0mGET /users/sign-in [32m200[0m 2.722 ms - 2485[0m
+[0mPOST /users/create-session [36m302[0m 6.870 ms - 72[0m
+[0mGET /users/sign-in [36m304[0m 2.441 ms - -[0m
+[0mGET /users/sign-up [32m200[0m 7.391 ms - 2220[0m
+[0mPOST /users/create [36m302[0m 4.264 ms - 114[0m
+[0mGET /users/sign-up [32m200[0m 3.095 ms - 2509[0m
+[0mGET /users/sign-in [32m200[0m 2.436 ms - 2210[0m
+[0mPOST /users/create-session [36m302[0m 5.713 ms - 72[0m
+[0mGET /users/sign-in [32m200[0m 2.569 ms - 2485[0m
+[0mGET /users/sign-in [32m200[0m 3.735 ms - 2210[0m

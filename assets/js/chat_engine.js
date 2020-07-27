@@ -3,7 +3,7 @@ class ChatEngine{
     constructor(chatBoxId , userEmail){
         this.chatBoxId = $(`#${chatBoxId}`);
         this.userEmail = userEmail;
-        this.socket = io.connect("http://3.91.245.211:5000");
+        this.socket = io.connect("http://localhost:5000");
         if(this.userEmail){ 
             this.connectionHandler();
         }
@@ -29,8 +29,10 @@ class ChatEngine{
         //send a message on clicking the send message button
         $("#send-message").click(function(){
             let msg = $("#chat-message-input").val();
+            console.log('***********',msg)
 
             if(msg != ""){
+                console.log(true)
                 self.socket.emit("send_message" ,{
                     message : msg,
                     user_email : self.userEmail,

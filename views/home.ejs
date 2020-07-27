@@ -37,11 +37,11 @@
             <%-include('chat_box') %>
 
         </div>
-
+        
+        <% if(locals.user) {%>
 
 <script src="<%=assetPath('js/home_posts.js')%>"></script>
 <script src="<%=assetPath('js/home_post_comments.js')%>"></script>
-<!-- <script src="<%=assetPath('js/home.js')%>"></script> -->
         
 <script src="<%=assetPath('js/toggle_likes.js') %>"></script>
 
@@ -56,7 +56,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
 <script src="<%=assetPath('js/chat_engine.js')%>"></script>
         
-<% if(locals.user) {%>
+
     <script>
         new ChatEngine("user-chat-box" , "<%= locals.user.email %>");
     </script>
