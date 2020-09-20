@@ -133,7 +133,7 @@
 
 
             let postId = self.prop('id').split("-")[1]; 
-            createComment(postId);
+            // createComment(postId);
 
         });
             $('.delete-comment-button').each(function(){

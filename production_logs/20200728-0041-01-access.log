@@ -1,0 +1,43 @@
+::1 - - [27/Jul/2020:06:36:46 +0000] "GET / HTTP/1.1" 200 3228 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [27/Jul/2020:06:36:47 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [27/Jul/2020:06:36:51 +0000] "GET /users/sign-in HTTP/1.1" 200 2254 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [27/Jul/2020:06:37:02 +0000] "POST /users/create-session HTTP/1.1" 302 72 "http://localhost:7000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [27/Jul/2020:06:37:02 +0000] "GET /users/sign-in HTTP/1.1" 200 2529 "http://localhost:7000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [27/Jul/2020:06:37:05 +0000] "GET /users/sign-up HTTP/1.1" 200 2264 "http://localhost:7000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [27/Jul/2020:06:37:18 +0000] "POST /users/create HTTP/1.1" 302 72 "http://localhost:7000/users/sign-up" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [27/Jul/2020:06:37:18 +0000] "GET /users/sign-in HTTP/1.1" 200 2254 "http://localhost:7000/users/sign-up" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [27/Jul/2020:06:37:22 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:7000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [27/Jul/2020:06:37:22 +0000] "GET / HTTP/1.1" 200 4959 "http://localhost:7000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [27/Jul/2020:06:37:23 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:7000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [27/Jul/2020:06:37:31 +0000] "GET / HTTP/1.1" 200 4686 "http://localhost:7000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+::1 - - [27/Jul/2020:06:37:47 +0000] "GET / HTTP/1.1" 200 3465 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+[0mGET / [32m200[0m 201.161 ms - 6133[0m
+[0mGET / [32m200[0m 30.908 ms - 6133[0m
+[0mGET /users/sign-up [32m200[0m 12.459 ms - 2220[0m
+[0mPOST /users/create [36m302[0m 8.441 ms - 114[0m
+[0mGET /users/sign-up [32m200[0m 3.738 ms - 2509[0m
+[0mGET /users/sign-in [32m200[0m 4.760 ms - 2210[0m
+[0mPOST /users/create-session [36m302[0m 8.735 ms - 72[0m
+[0mGET /users/sign-in [32m200[0m 2.509 ms - 2485[0m
+[0mGET / [32m200[0m 130.057 ms - 5689[0m
+[0mGET /users/sign-in [32m200[0m 6.975 ms - 2210[0m
+[0mPOST /users/create-session [36m302[0m 16.343 ms - 72[0m
+[0mGET /users/sign-in [32m200[0m 5.807 ms - 2485[0m
+[0mGET /users/sign-up [32m200[0m 4.032 ms - 2220[0m
+[0mPOST /users/create [36m302[0m 7.756 ms - 114[0m
+[0mGET /users/sign-up [32m200[0m 4.538 ms - 2509[0m
+[0mGET /users/sign-in [32m200[0m 9.034 ms - 2210[0m
+[0mPOST /users/create-session [36m302[0m 13.061 ms - 72[0m
+[0mGET /users/sign-in [32m200[0m 5.619 ms - 2485[0m
+[0mGET /users/sign-up [32m200[0m 7.281 ms - 2220[0m
+[0mPOST /users/create [36m302[0m 28.321 ms - 72[0m
+[0mGET /users/sign-in [32m200[0m 3.678 ms - 2210[0m
+[0mPOST /users/create-session [36m302[0m 7.060 ms - 46[0m
+[0mGET / [32m200[0m 34.430 ms - 9131[0m
+[0mGET /favicon.ico [33m404[0m 7.770 ms - 150[0m
+[0mGET / [32m200[0m 113.697 ms - 8858[0m
+[0mGET / [36m304[0m 117.211 ms - -[0m
+[0mGET / [36m304[0m 114.724 ms - -[0m
+[0mGET / [36m304[0m 96.943 ms - -[0m
+[0mGET / [36m304[0m 201.649 ms - -[0m
+[0mGET / [36m304[0m 50.729 ms - -[0m

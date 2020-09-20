@@ -29,10 +29,8 @@ class ChatEngine{
         //send a message on clicking the send message button
         $("#send-message").click(function(){
             let msg = $("#chat-message-input").val();
-            console.log('***********',msg)
 
             if(msg != ""){
-                console.log(true)
                 self.socket.emit("send_message" ,{
                     message : msg,
                     user_email : self.userEmail,
